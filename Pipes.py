@@ -21,5 +21,5 @@ def parent_process():
     process.join()
 
 if __name__ == "__main__":
-    multiprocessing.set_start_method('fork')  # <-- Add this line on macOS
+    multiprocessing.set_start_method('fork') 
     parent_process()
